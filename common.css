@@ -1,0 +1,42 @@
+* {
+  margin:0;
+  padding:0;
+}
+body {
+  font-size: 15px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight:200;
+  color:white;
+}
+ul {
+  list-style-type:none;
+}
+#menu {
+  width:100%;
+  height:30px;
+  padding:1%;
+  background-color:black;
+}
+#menu li {
+  display:inline;
+  margin-left:3%;
+  vertical-align:middle;
+}
+#menu li span {
+  font-size:20px;
+  font-weight: 700;
+}
+a {
+  color:white;
+}
+a:link {
+  font-weight:200;
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:line-through;
+}
+a:active {
+  font-weight:400;
+  text-decoration:line-through;
+}
